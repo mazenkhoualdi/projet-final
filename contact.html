@@ -66,7 +66,86 @@
             <a href="" id="yt"><i class="fa-brands fa-youtube"></i></a>
           </div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+          <h1>Customer Service</h1>
+          <form onsubmit="validation()">
+            <div class="input-control">
+              <label>first-name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="name" />
+              <div class="icons">
+                <i class="fa fa-times u_times"></i>
+                <i class="fa fa-check u_check"></i>
+              </div>
+            </div>
+            <div class="input-control">
+              <label for="last-name">last-name</label>
+              <input type="text" name="last-name" id="last-name"  placeholder="last name"/>
+              <div class="icons">
+                <i class="fa fa-times p_times"></i>
+                <i class="fa fa-check p_check"></i>
+              </div>
+            </div>
+            <div class="input-control">
+              <label for="email">email</label>
+              <input type="text" name="username" id="email" placeholder="exemple@gmail.com" />
+              <div class="icons">
+                <i class="fa fa-times m_times"></i>
+                <i class="fa fa-check m_check"></i>
+              </div>
+            </div>
+            <div class="input-control">
+              <label for="phone">phone</label>
+              <input type="number" name="phone" id="phone" placeholder="+216" />
+              <div class="icons">
+                <i class="fa fa-times a_times"></i>
+                <i class="fa fa-check a_check"></i>
+              </div>
+            </div>
+            <textarea
+              id="text-24"
+              cols="30"
+              rows="10"
+              placeholder="write here"
+            ></textarea>
+            <input id="btn" type="submit" value="login">
+          </form>
+        </div>
+      </div>
+      <div class="information">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.282259221181!2d10.236292174838402!3d36.835715565698386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3541c4f22e55%3A0x5b7225d7fdbb3801!2sGOMYCODE%20LAC1!5e0!3m2!1sfr!2stn!4v1687803895353!5m2!1sfr!2stn"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="person">
+          <div class="per">
+            <img src="p1.jpeg" alt="404" />
+            <p>
+              <span>David Walter:</span>RH Manager <br />phone:+21678787878
+              <br />email:david@gmail.com
+            </p>
+          </div>
+          <div class="per">
+            <img src="p2.jpeg" alt="404" />
+            <p>
+              <span>JAMES maddison:</span>marketing Manager
+              <br />phone:+216789513248 <br />email:james@gmail.com
+            </p>
+          </div>
+          <div class="per">
+            <img src="p3.jpeg" alt="404" />
+            <p>
+              <span>cris bruno:</span>technical service Manager
+              <br />phone:+216415855245 <br />email:cris@gmail.com
+            </p>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
@@ -118,5 +197,6 @@
         </div>
       </div>
     </footer>
+    <script src="contact.js"></script>
   </body>
 </html>

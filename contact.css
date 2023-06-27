@@ -123,7 +123,7 @@ footer {
   margin: 80px 20px;
   border-radius: 40px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.16);
-  height: 400px;
+  height: 500px;
 }
 .left {
   display: flex;
@@ -153,7 +153,7 @@ footer {
   padding-top: 30px;
 }
 .cor h3,
-i {
+.cor i {
   color: #cf6d1c;
 }
 #supp {
@@ -164,4 +164,94 @@ i {
 }
 #supp #tw:hover {
   color: rgb(12, 210, 255);
+}
+.right {
+  margin: 40px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.right h1 {
+  color: rgb(144, 26, 127);
+  text-align: center;
+}
+form label {
+  color: #bd4370;
+  font-style: oblique;
+}
+#btn {
+  padding: 10px;
+  margin-top: 30px;
+  width: 300px;
+  color: white;
+  background-color: #4b05ad;
+  border: none;
+  border-radius: 4px;
+}
+.input-control {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 40px;
+}
+.input-control input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: 0;
+  border-bottom: 2px solid rgb(144, 26, 127);
+  background: transparent;
+}
+.input-control input:focus {
+  outline: 0px;
+}
+textarea {
+  margin-left: 80px;
+  border: 2px solid rgb(144, 26, 127);
+  border-radius: 10px;
+}
+.map {
+  width: 55%;
+  height: 400px;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+.information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.per {
+  padding-bottom: 20px;
+}
+.person img {
+  width: 65px;
+  height: 66px;
+  margin-right: 15px;
+  border-radius: 40px;
+}
+.per p {
+  font-size: 14px;
+  color: #62635f;
+}
+.per span {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
+.input-control .fa {
+  position: relative;
+  bottom: 25px;
+  left: 190px;
+  display: none;
+}
+.fa-times {
+  color: red;
+}
+.fa-check {
+  color: green;
 }
