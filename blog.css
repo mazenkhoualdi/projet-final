@@ -98,7 +98,7 @@ footer {
 }
 
 .blog-back {
-  background-image: url("blog.png");
+  background-image: url("images/blog.png");
   height: 250px;
   width: 1299px;
 }
@@ -118,7 +118,7 @@ footer {
   color: rgb(255, 255, 36);
 }
 .products {
-  background-image: url("back-blog.jpg");
+  background-image: url("images/back-blog.jpg");
   margin-top: 150px;
   margin-bottom: 0px;
   display: flex;

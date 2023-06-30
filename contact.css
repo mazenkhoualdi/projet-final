@@ -97,7 +97,7 @@ footer {
   color: red;
 }
 .contact-back {
-  background-image: url("contact.png");
+  background-image: url("images/contact.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
