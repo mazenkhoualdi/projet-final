@@ -56,11 +56,11 @@ nav ul li a:hover {
   margin-top: 40px;
   margin-left: 100px;
 }
-.btn a{
+.btn a {
   text-decoration: none;
   color: black;
 }
-.interface button a{
+.interface button a {
   text-decoration: none;
 }
 .interface button:active {
@@ -122,12 +122,13 @@ nav ul li a:hover {
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 20px;
-  border: 2px solid #cce7d0;
+  border: 2px solid #62635f;
   border-radius: 20px;
   height: 330px;
   width: 200px;
   display: flex;
   flex-direction: column;
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.9);
 }
 .prd h6 {
   color: green;
@@ -147,14 +148,15 @@ nav ul li a:hover {
 .setup img {
   margin-top: 20px;
   width: 60%;
-  padding-left: 250px;
+  margin-left: 260px;
+  border: 5px outset rgb(172, 26, 122);
   border-radius: 10px;
 }
 .setup h1 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
-  color: red;
+  color: rgb(172, 26, 122);
 }
 .special {
   margin-top: 80px;
@@ -267,5 +269,3 @@ footer {
 #yt:hover {
   color: red;
 }
-
-

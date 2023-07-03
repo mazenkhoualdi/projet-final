@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e3e6f8;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  padding-right: 20px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 650;
+  color: #740892;
+}
+nav ul li a:hover {
+  color: #ff2273;
+}
+footer {
+  margin-top: 110px;
+  background-color: #e3e6f8;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e3e6f8;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.info {
+  padding-top: 80px;
+}
+.info h3 {
+  color: #555652;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: large;
+}
+.info h3:hover {
+  transform: scale(0.75);
+  color: black;
+}
+.info li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.info li a {
+  text-decoration: none;
+  color: #62635f;
+  font-style: italic;
+}
+.media a {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+.paiment i {
+  padding-left: 20px;
+}
+.paiment i:hover {
+  color: #ff2273;
+}
+#ins:hover {
+  color: rgb(255, 0, 157);
+}
+#tw:hover {
+  color: rgb(12, 210, 255);
+}
+#fb:hover {
+  color: blue;
+}
+#twi:hover {
+  color: rgb(2, 10, 81);
+}
+#yt:hover {
+  color: red;
+}
+.box img {
+  width: 10%;
+  border: 5px solid  #ff2273;
+  margin-right: 15px;
+}
+#big-one {
+  width: 80%;
+}
+#big4{
+  font-weight: bolder;
+  font-size: large;
+  color: blacks;
+}
+.box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid #ff2273;
+}
+#big-2 {
+  margin-top: 30px;
+  font-weight: bolder;
+  color: #740892;
+}
+.box h4 {
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  color: #62635f;
+}
+main {
+  margin: 0 40px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "one one one two two"
+    "one one one three three"
+    "one one one four four "
+    "one one one five five"
+    "one one one six six"
+    "one one one seven seven"
+    "one one one eight eight"
+    "one one one nine nine"
+    "one one one ten ten "
+    "one one one eleven eleven"
+    "one one one twelve twelve"
+    "one one one thirteen thirteen"
+    "one one one fourteen fourteen";
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.ten {
+  grid-area: ten;
+}
+.eleven {
+  grid-area: eleven;
+}
+.twelve {
+  grid-area: twelve;
+}
+.thirteen {
+  grid-area: thirteen;
+}
+.fourteen {
+  grid-area: fourteen;
+}
+.fiveteen {
+  grid-area: fiveteen;
+}

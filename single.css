@@ -127,16 +127,16 @@ footer {
 .moredetails .right h4 {
   padding: 40px 0 20px 0;
   font-size: large;
-  color: rgb(56, 16, 70);
+  color: rgb(61, 15, 227);
 }
 #pd {
   padding: 40px 0 20px 0;
   font-size: x-large;
   font-style: italic;
-  color: #740892;
+  color: #92083b;
 }
 .moredetails .right h6 {
-  color: #740892;
+  color: #4c9ee1;
   font-size: larger;
 }
 .moredetails .right h2 {
@@ -149,5 +149,6 @@ footer {
 .moredetails .right span {
   line-height: 25px;
   font-size: large;
-  font-weight: bold;
+  font-weight: bolder;
+  font-style: italic;
 }

@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #E3E6F3;
+  background: #e3e6f3;
   margin: 10%;
 }
 .container {
@@ -48,12 +48,11 @@ h1 {
 p {
   font-size: 14px;
   letter-spacing: 0.6px;
-  margin: 15px 0px 20px;
 }
 input {
   background: #eee;
   padding: 12px 15px;
-  margin: 8px 15px;
+  margin: 4px 15px;
   width: 100%;
   border-radius: 10px;
   border: none;
@@ -135,7 +134,7 @@ button:active {
   transform: translateX(-20%);
 }
 .overlay-right {
-  right: 0px; 
+  right: 0px;
 }
 .social-media {
   margin: 20px 0;
@@ -149,4 +148,31 @@ button:active {
   align-items: center;
   border: 2px solid #ccc;
   border-radius: 50%;
+}
+input {
+  outline: none;
+}
+.u_times,
+.u_check {
+  position: relative;
+  left: 340px;
+  top: 40px;
+  display: none;
+}
+.e_times,
+.e_check {
+  position: relative;
+  left: 330px;
+  top: 92px;
+  display: none;
+}
+.icons{
+  display: flex;
+}
+
+.fa-times {
+  color: red;
+}
+.fa-check {
+  color: green;
 }
