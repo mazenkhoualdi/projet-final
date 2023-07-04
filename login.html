@@ -14,7 +14,9 @@
     <main class="container" id="mn">
       <div class="singup">
         <form action="#">
-          <h1 style="color: rgb(23, 181, 181);padding-bottom: 0px;">create account</h1>
+          <h1 style="color: rgb(23, 181, 181); padding-bottom: 0px">
+            create account
+          </h1>
           <div class="social-media">
             <a href="#"
               ><i class="fa-brands fa-facebook" style="color: blue"></i
@@ -37,9 +39,9 @@
             <i class="fa fa-check e_check"></i>
           </div>
 
-          <input type="text " name="txt" placeholder="your name" id="name" />
+          <input type="text " name="txt" placeholder="username" id="name" />
           <input
-            type="email"
+            type="text"
             name="email"
             placeholder="exemple@gmail.com"
             id="email"
@@ -50,22 +52,31 @@
             placeholder="passsword"
             id="pass"
           />
-          <button onclick="validation()">sing up</button>
+          <button type="button" onclick="validation()">sing up</button>
         </form>
       </div>
       <div class="singin">
         <form action="#">
-          <h1 style="color: rgb(42, 201, 201);">sing in</h1>
+          <h1 style="color: rgb(42, 201, 201)">sing in</h1>
           <div class="social-media">
-            <a href="#"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(255, 21, 212);"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter" style="color: aqua;"></i></a>
+            <a href="#"
+              ><i class="fa-brands fa-facebook" style="color: blue"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-brands fa-instagram"
+                style="color: rgb(255, 21, 212)"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-twitter" style="color: aqua"></i
+            ></a>
           </div>
           <p>or use your account</p>
           <input type="email" name="email" placeholder="exemple@gmail.com" />
           <input type="password" name="pass" placeholder="passsword" />
           <a href="#">forget your password?</a>
-          <button>sing in</button>
+          <button id="sin">sing in</button>
         </form>
       </div>
       <div class="overlay-container">
@@ -83,6 +94,12 @@
         </div>
       </div>
     </main>
+    <div class="thnx" id="cong">
+      <img src="images/check.jpg" alt="404" />
+      <h2>thank you</h2>
+      <p>your details has been succefuly submited</p>
+      <button type="button" onclick="closethnx()">ok</button>
+    </div>
     <script src="login.js"></script>
   </body>
 </html>

@@ -166,7 +166,7 @@ input {
   top: 92px;
   display: none;
 }
-.icons{
+.icons {
   display: flex;
 }
 
@@ -175,4 +175,47 @@ input {
 }
 .fa-check {
   color: green;
+}
+.thnx {
+  width: 430px;
+  background-color: rgb(108, 255, 108);
+  border-radius: 10px;
+  position: absolute;
+  width: 790px;
+  height: 400px;
+  transform: scale(0.05);
+  top: -31%;
+  left: 220px;
+  z-index: 500;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-thnx {
+  visibility: visible;
+  top: 100px;
+  transform: scale(1);
+}
+.thnx img {
+  width: 90px;
+  border-radius: 50%;
+  margin-top: -50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+}
+.thnx h2 {
+  margin: 30px 30px 10px;
+  font-weight: bold;
+}
+.thnx p {
+  margin-top: 80px;
+  font-size: x-large;
+  font-style: initial;
+  font-family: sans-serif;
+}
+.thnx button {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+  background-color: #0a9d47;
+  border: 4px unset #0a9d47;
 }

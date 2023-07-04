@@ -46,6 +46,7 @@ password.addEventListener("keyup", function () {
     password.style.border = "2px solid red";
   }
 });
+let surp = document.getElementById("cong");
 function validation() {
   if (nom.value.length < 3) {
     alert("please enter your correct information");
@@ -54,6 +55,13 @@ function validation() {
   } else if (password.value.length < 8) {
     alert("please enter your correct information");
   } else {
-    alert("thank you for your subscription");
+    surp.classList.add("open-thnx");
   }
 }
+function closethnx() {
+  surp.classList.remove("open-thnx");
+}
+sign = document.getElementById("sin");
+sign.addEventListener("click", function () {
+  alert("WELCOME HOME");
+});

@@ -13,6 +13,28 @@ header {
   top: 0px;
   z-index: 1000;
 }
+.btn-primary {
+  background-color: #951db6;
+  border: 2px solid #951db6;
+  border-radius: 10px;
+
+}
+.details a{
+  color: black;
+}
+.add-to-cart {
+  background-color: #951db6;
+  border: 2px solid #951db6;
+  border-radius: 10px;
+  color: #6ea8ff;
+  text-decoration: none;
+}
+.btn-danger {
+  background-color: #951db6;
+  border: 2px solid #951db6;
+  border-radius: 10px;
+  color: black;
+}
 nav ul {
   display: flex;
   justify-content: center;
@@ -97,39 +119,39 @@ footer {
   color: red;
 }
 .shop-back {
-    background-image: url("products/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    width: 1299px;
-  }
-  .mini-titles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 90px;
-    font-size: x-large;
-    font-style: oblique;
-  }
-  .mini-titles h1 {
-    color: #ff2273;
-  }
-  .mini-titles h4 {
-    color: aqua;
-  }
-  .next {
-    margin-top: 60px;
-    text-align: center;
-  }
-  .next a {
-    text-decoration: none;
-    background-color: #088178;
-    padding: 15px 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: 600;
-  }
+  background-image: url("products/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 1299px;
+}
+.mini-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  font-size: x-large;
+  font-style: oblique;
+}
+.mini-titles h1 {
+  color: #ff2273;
+}
+.mini-titles h4 {
+  color: aqua;
+}
+.next {
+  margin-top: 60px;
+  text-align: center;
+}
+.next a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
 .products {
   display: flex;
   justify-content: center;
@@ -175,4 +197,12 @@ footer {
 .money button {
   color: white;
   background-color: #740892;
+}
+.modal-dialog{
+  background-color: #8a479c;
+  width: 600px;
+  margin-left: 400px;
+  margin-top: 40px;
+  border: 3px unset #8a479c;
+  border-radius: 10px;
 }

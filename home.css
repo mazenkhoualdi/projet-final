@@ -119,6 +119,8 @@ nav ul li a:hover {
   font-size: 16px;
 }
 .prd {
+  justify-content: center;
+  align-items: center;
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 20px;
@@ -133,6 +135,13 @@ nav ul li a:hover {
 .prd h6 {
   color: green;
   text-align: center;
+  width: 200px;
+  height: 30px;
+}
+.prd h6:hover{
+  color: #fff;
+  background-color: rgb(38, 215, 38);
+  border-radius: 15px;
 }
 .prd h4 {
   font-size: larger;
@@ -141,9 +150,6 @@ nav ul li a:hover {
 .prd h5 {
   font-size: medium;
   color: gray;
-}
-.prd:hover {
-  transform: scale(0.75);
 }
 .setup img {
   margin-top: 20px;
