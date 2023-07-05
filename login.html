@@ -8,9 +8,34 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="icon" href="images/GAMERS 4LIFE.png" />
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
+    <header>
+      <a href="home.html"
+        ><img
+          src="images/GAMERS 4LIFE.png"
+          alt="404"
+          style="width: 20%"
+          class="logo"
+      /></a>
+      <nav>
+        <ul id="list">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="container" id="mn">
       <div class="singup">
         <form action="#">
@@ -96,10 +121,65 @@
     </main>
     <div class="thnx" id="cong">
       <img src="images/check.jpg" alt="404" />
-      <h2>thank you</h2>
-      <p>your details has been succefuly submited</p>
+      <h2>THANK YOU</h2>
+      <p>YOU ARE NOW A MEMBER OF THE FAMILY</p>
       <button type="button" onclick="closethnx()">ok</button>
     </div>
+    <div class="reject" id="rej">
+      <img src="images/404.jpg" alt="404" />
+      <h2>ERROR404</h2>
+      <p>YOU MUST VERIFY YOUR CHOICES.PLEASE TRY AGAIN</p>
+      <button type="button" onclick="closethnx()">ok</button>
+    </div>
+    <footer>
+      <div class="info">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Terms of service</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Privacy</a></li>
+          <li><a href="">contact us</a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Adress:tunis-benarous centrale</a></li>
+          <li><a href="">Fax:+2167984748745</a></li>
+          <li><a href="">Horaires:9am-19pm(monday-sunday)</a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Online-shop</h3>
+        <li><a href="">Accesoires</a></li>
+        <li><a href="">Setup</a></li>
+        <li><a href="">Others</a></li>
+      </div>
+      <div class="info">
+        <h3>Account</h3>
+        <li><a href="">Sign in</a></li>
+        <li><a href="">Cart</a></li>
+        <li><a href="">Help</a></li>
+      </div>
+      <div class="info">
+        <h3>Follow us</h3>
+        <div class="media">
+          <a href="#" id="fb"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" id="ins"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" id="tw"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" id="twi"><i class="fa-brands fa-twitch"></i></a>
+          <a href="" id="yt"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <h3>paiment methodes</h3>
+        <div class="paiment">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-solid fa-credit-card"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+        </div>
+      </div>
+    </footer>
     <script src="login.js"></script>
   </body>
 </html>

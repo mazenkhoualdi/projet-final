@@ -47,19 +47,21 @@ password.addEventListener("keyup", function () {
   }
 });
 let surp = document.getElementById("cong");
+let rej = document.getElementById("rej");
 function validation() {
-  if (nom.value.length < 3) {
-    alert("please enter your correct information");
-  } else if (email.value.length < 5) {
-    alert("please enter your correct information");
-  } else if (password.value.length < 8) {
-    alert("please enter your correct information");
+  if (
+    nom.value.length < 3 ||
+    email.value.length < 5 ||
+    password.value.length < 8
+  ) {
+    rej.classList.add("open-reject");
   } else {
     surp.classList.add("open-thnx");
   }
 }
 function closethnx() {
   surp.classList.remove("open-thnx");
+  rej.classList.remove("open-reject");
 }
 sign = document.getElementById("sin");
 sign.addEventListener("click", function () {
