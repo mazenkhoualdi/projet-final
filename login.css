@@ -322,7 +322,7 @@ input {
 .thnx button {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
   background-color: #0a9d47;
-  border: 4px unset #0a9d47;
+  border: 4px solid #0a9d47;
 }
 .reject {
   width: 430px;
@@ -362,11 +362,62 @@ input {
 .reject button {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
   background-color: #f3021a;
-  border: 4px unset #f3021a;
+  border: 4px solid #f3021a;
 }
 .open-reject {
   visibility: visible;
   top: 255px;
   transform: scale(1);
   left: 225px;
+}
+.welcome {
+  width: 430px;
+  background-color: rgb(19, 144, 194);
+  border-radius: 10px;
+  position: absolute;
+  width: 790px;
+  height: 400px;
+  transform: scale(0.05);
+  top: -15%;
+  left: 245px;
+  z-index: 500;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333333;
+  box-shadow: 0 2px 5px rgb(50, 205, 109);
+  transition: transform 0.4s, top 0.4s;
+  visibility: hidden;
+}
+.open-welcome {
+  visibility: visible;
+  top: 255px;
+  transform: scale(1);
+  left: 225px;
+}
+.welcome img {
+  width: 90px;
+  border-radius: 50%;
+  margin-top: -35px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+}
+.welcome h2 {
+  margin: 30px 30px 10px;
+  font-weight: bold;
+  color: #0bc8ce;
+  font-style: italic;
+}
+.welcome p {
+  margin-top: 80px;
+  font-size: x-large;
+  font-style: initial;
+  font-family: sans-serif;
+  color: rgb(12, 77, 120);
+}
+.welcome button {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+  background-color: #0a409d;
+  border: 4px solid #0a409d;
+}
+.bt:hover{
+  scale: 0.75;
 }

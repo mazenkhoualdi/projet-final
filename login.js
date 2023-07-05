@@ -62,8 +62,10 @@ function validation() {
 function closethnx() {
   surp.classList.remove("open-thnx");
   rej.classList.remove("open-reject");
+  wel.classList.remove("open-welcome")
 }
 sign = document.getElementById("sin");
+wel=document.getElementById("wel")
 sign.addEventListener("click", function () {
-  alert("WELCOME HOME");
+  wel.classList.add("open-welcome")
 });
