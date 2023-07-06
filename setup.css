@@ -98,13 +98,13 @@ footer {
 }
 .box img {
   width: 10%;
-  border: 5px solid  #ff2273;
+  border: 5px solid #ff2273;
   margin-right: 15px;
 }
 #big-one {
   width: 80%;
 }
-#big4{
+#big4 {
   font-weight: bolder;
   font-size: large;
   color: blacks;
@@ -189,4 +189,19 @@ main {
 }
 .fiveteen {
   grid-area: fiveteen;
+}
+.wow h2 {
+  align-items: center;
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+  font-style: italic;
+}
+.wow{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #825c6a;
+  border-radius: 40px;
+  width: 680px;
+margin-left: 40px;
 }

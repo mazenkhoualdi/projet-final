@@ -138,7 +138,7 @@ nav ul li a:hover {
   width: 200px;
   height: 30px;
 }
-.prd h6:hover{
+.prd h6:hover {
   color: #fff;
   background-color: rgb(38, 215, 38);
   border-radius: 15px;
@@ -274,4 +274,7 @@ footer {
 }
 #yt:hover {
   color: red;
+}
+.prd-container .prd:hover {
+  transform: scale(0.8);
 }

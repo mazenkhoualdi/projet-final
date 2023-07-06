@@ -17,9 +17,8 @@ header {
   background-color: #951db6;
   border: 2px solid #951db6;
   border-radius: 10px;
-
 }
-.details a{
+.details a {
   color: black;
 }
 .add-to-cart {
@@ -194,15 +193,41 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.money button {
-  color: white;
-  background-color: #740892;
-}
-.modal-dialog{
+.modal-dialog {
   background-color: #8a479c;
   width: 600px;
   margin-left: 400px;
   margin-top: 40px;
-  border: 3px unset #8a479c;
+  padding-left: 10px;
+  border: 3px solid #b808e9;
   border-radius: 10px;
+}
+.total-count {
+  color: #ff2273;
+  font-size: large;
+}
+.titlee {
+  color: #088178;
+  margin: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+.modal-header h5 {
+  text-align: center;
+  color: #ff2273;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+}
+#flous , #flousss{
+  color: #080c81;
+  font-size: medium;
+  font-style: oblique;
+}
+.money a {
+  color: #080c81;
+  border: 1px solid #740892;
+  border-radius: 4px;
 }
